@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nagendra Kommu · ECE Student</title>
+<meta name="description" content="Nagendra Kommu — ECE student. Portfolio, creative work and contact.">
+<meta property="og:title" content="Nagendra Kommu · ECE Student">
+<meta property="og:description" content="Student · Creative · Curious">
+<meta property="og:image" content="og.png">
+<meta name="theme-color" content="#0f0d0b">
+<link rel="icon" href="icon.png">
+<link rel="preload" as="image" href="img/hero.jpg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav" id="top">
+  <a class="brand" href="#top">NK<span>.</span></a>
+  <nav aria-label="Sections">
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#work">Work</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" aria-labelledby="name">
+    <figure class="hero-photo"><img src="img/hero.jpg" alt="Portrait of Nagendra Kommu on a balcony" width="1200" height="1600" fetchpriority="high"></figure>
+    <div class="hero-text">
+      <p class="eyebrow reveal">Hello, I'm</p>
+      <h1 id="name" class="reveal">Nagendra<br><span>Kommu</span></h1>
+      <p class="role reveal">ECE Student</p>
+      <p class="tagline reveal">Student · Creative · Curious</p>
+      <div class="cta reveal">
+        <a class="btn primary" href="#work">See my work</a>
+        <a class="btn ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT: replace the paragraph below with your own words -->
+  <section id="about" class="section">
+    <p class="kicker reveal">01 — About</p>
+    <h2 class="reveal">A little about me</h2>
+    <p class="lead reveal">I'm Nagendra, an Electronics &amp; Communication Engineering student who loves learning how things work, from circuits to cameras. I enjoy building, experimenting and creating, and I'm always picking up something new.</p>
+  </section>
+
+  <!-- SKILLS: edit the list below; remove any that don't fit -->
+  <section id="skills" class="section">
+    <p class="kicker reveal">02 — Skills</p>
+    <h2 class="reveal">What I'm working with</h2>
+    <ul class="chips reveal">
+      <li>Circuits</li>
+      <li>Embedded Systems</li>
+      <li>Signal Processing</li>
+      <li>Communication Systems</li>
+      <li>C</li>
+      <li>Python</li>
+      <li>Photo &amp; Video</li>
+    </ul>
+    <p class="note reveal">Skills list being finalised, more coming soon.</p>
+  </section>
+
+  <section id="work" class="section">
+    <p class="kicker reveal">03 — Creative work</p>
+    <h2 class="reveal">Gallery</h2>
+    <div class="gallery">
+      <button class="tile tall reveal" data-full="img/pose-b.jpg"><img src="img/pose-b.jpg" alt="Golden hour portrait, hand in hair" loading="lazy" width="900" height="1200"></button>
+      <button class="tile reveal" data-full="img/pose-a.jpg"><img src="img/pose-a.jpg" alt="Leaning on the balcony at sunset" loading="lazy" width="900" height="1200"></button>
+      <button class="tile reveal" data-full="img/hero.jpg"><img src="img/hero.jpg" alt="Balcony portrait" loading="lazy" width="1200" height="1600"></button>
+      <button class="tile reveal" data-full="img/aesthetic.jpg"><img src="img/aesthetic.jpg" alt="Soft warm portrait" loading="lazy" width="900" height="1200"></button>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <p class="kicker reveal">04 — Contact</p>
+    <h2 class="reveal">Let's connect</h2>
+    <p class="lead reveal">Open to projects, collaborations and a good conversation.</p>
+    <!-- CONTACT: add Instagram / LinkedIn buttons here when ready -->
+    <p class="phone reveal"><a href="tel:+919951266995">+91 99512 66995</a></p>
+    <div class="cta center reveal">
+      <a class="btn primary big" href="https://wa.me/919951266995" target="_blank" rel="noopener">WhatsApp me</a>
+      <a class="btn ghost big" href="tel:+919951266995">Call</a>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>© 2026 Nagendra Kommu</p>
+  <a href="#top">Back to top ↑</a>
+</footer>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+  <button class="close" aria-label="Close">×</button>
+  <img alt="">
+</div>
+<script src="script.js" defer></script>
+</body>
+</html>
